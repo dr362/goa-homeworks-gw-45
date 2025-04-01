@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./hw.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #site_info {
+            color:aqua;
+            text-align:center;
+            font-size:x-large;
+        }
+        .a_fact {
+            color:green;
+            text-align:center;
+            font-size:large
+        }
+        video {
+            width:400px;
+        }
+        .hi {
+            color:green;
+        }
+        .bye {
+            color:red;
+        }
+        body {
+            background-color:blue;
+        }
+    </style>
+    <!-- ```1)შექმენით საიტი თავისუფალ თემაზე, გამოიყენეთ ყველა ნასწავლი CSS-ის კუთვნილება და ლამაზად გასტილეთ თქვენი საიტი. გამოიყენეთ internal CSS-ი
+
+2) შექმენით 2 h1  ერთს მიანიჭეთ id მეორეს class და external css-ის გამოყენებით გასტილეთ განსხვავებულად
+
+3) კომენტარების სახით დაწერეთ რა განსხვავებაა id ,class და ელემენტის სელექტორს შორის და რომელია უფრო პრიორიტეტული 
+
+4)შექმენით ოთხი ღილაკი, კლასების საშუალებით გასტილეთ მსგავსად ორი ღილაკი, ხოლო დანარჩენი 2 განსხვავებულად``` -->
+<!-- 1) -->
+    <h1 id="site_info">hi this site is about capybaras and crocidiles</h1>
+    <h1 class="a_fact">capybaras are safe from crocidiles they are friends u will see that in the video</h1>
+    <video controls>
+        <source src="./Capybara SAVED By A Crocodile.mp4">
+    </video>
+    <!-- 2) -->
+    <!-- სელექტორი არის არჩევანი იგივე თეგის სახელს მივუთითებთ რომელი უნდა გასტილოს -->
+<!-- აიდი იგივე id არის ისეთი ატრიბუტი რომელიც ელემენტს უნიკალურს ხდის ანუ შეუძლია ერთერთი ელემენტი გასტილოს -->
+<!-- კლასს კი შეუძლია ბევრი ელემენტი ერთად შეკრიბოს და მის მითითებისას ერთი და იგივე კლასი რომელსაც აქვს იმათ სტილავს -->
+<!-- ყველაზე მნიშვნელოვანი სელექტორი არი აიდი -->
+    <!-- 3) -->
+    <button class="hi">so cool im a button with a class</button>
+    <button class="bye">mines better</button>
+    <button class="hi">do not mess with my gang >:[</button>
+    <button class="bye">why shouldn't we ?</button>
+</body>
+</html>

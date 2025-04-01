@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table {
+            border:solid;
+            border-collapse: collapse;
+        }
+        th,td {
+
+        
+            border: 1px solid black;
+        }
+        td:hover {
+            background-color:black;
+            color:white;
+        }
+        td {
+            transition:0.25s
+        }
+        thead {
+            background-color:blue;
+            color:white;
+        }
+        tbody tr:nth-child(odd) {
+                background-color:green;
+        }
+        tbody tr:nth-child(even) {
+                background-color:red;
+        }
+    </style>
+    <!-- # დავალება: (8:10)
+```
+შექმენით ცხრილი სადაც გექნებათ სათაურებად: Name / Surname / Gender / Age
+
+შემდეგ შეავსეთ მინიმუმ 7 რიგი და გასტილეთ შემდეგნაირად:
+
+სათაურების ფონი უნდა უნდა იყოს ლურჯი, ტექსტის ფერი თეთრი, ყოველი ლუწი მონაცემის ფონი უნდა იყოს მომწვანო, ხოლო ყოველი კენტის, მოწითალო / შემდეგ დაამატეთ ეფექტი რიგებს მაუსის მიტანისას (ფონის ფერი უნდა შეიცვალოს და ტექსტი უნდა გათეთრდეს)
+``` -->
+<table >
+    <thead>
+    <th>
+        Name
+    </th>
+        <th>Surname</th>
+        <th>Gender</th>
+        <th>Age</th> 
+    </thead>
+    <tbody>
+        <tr>
+        <td>sandro</td>
+        <td>gabidzashvili</td>
+        <td>male</td>
+        <td>10</td>
+        </tr>
+        <tr>
+            <td>luka</td>
+            <td>otarashvili</td>
+            <td>male</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>sergo</td>
+            <td>gabidzashvili</td>
+            <td>male</td>
+            <td>47</td>
+        </tr>
+        <tr>
+            <td>ia</td>
+            <td>nasidze</td>
+            <td>female</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>gio</td>
+            <td>qubriashvili</td>
+            <td>male</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>taso</td>
+            <td>jmuxadze</td>
+            <td>female</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>deme</td>
+            <td>natroshvili</td>
+            <td>male</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

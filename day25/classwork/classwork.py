@@ -1,0 +1,1 @@
+print("no classwork because i made it in day 24 :)")

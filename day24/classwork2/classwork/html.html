@@ -1,0 +1,37 @@
+<!-- ```1)შექმენით სიტი სადაც იქნება 5 განსხვავებული ვიდეო და 5 განსხვავაებული აუდიო,კომენტარებით ასენით რაში გვჭირდება:
+
+controls
+autoplay
+muted
+loop  
+type ატრიბუტები.
+
+2)შექმენით საიტი სადაც გამოიტანთ თქვენთვის 5 საყვარელ ვიდეოს ან მუსიკას გაუწერეთ ყველა ატრიბუტი რაც დღეს ავხსენით``` -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qrOeGCJdZe4?si=N3EWvyswJ3q8xh_t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- controls ღილაკებს უჩენს ვიდეოს,აუდიოს-->
+    <!-- aoutoplay პირდაპირ ირთვება ვიდეო,აუდიო საიტის გახსნისას-->
+    <!-- mute ხმას უთიშავს ვიდეოს,აუდიოს-->
+    <!-- loop - რომ როცა დასრულდება ვიდეო ისევ ირთვება-->
+    <!-- type - ზუსტად უთითებ რა ტიპის ვიდეოა -->
+    <video controls autoplay>
+    <source src="./The Wild Robot _ Official Trailer.mp4">
+    </video>
+    <video controls loop>
+    <source src="./Despicable Me 4 _ Official Trailer.mp4">
+    </video>
+    <video controls>
+    <audio controls>
+    <source src="./DOORS ORIGINAL SOUNDTRACK VOL. 1 - Guiding Light.mp3">
+    <source src="./DOORS_ FLOOR 2 TEASER.mp3">
+    <source src="./DOORS FLOOR 2 _ SEEK DAM OST (ROOM 200).mp3">
+    </audio>
+</body>
+</html>
